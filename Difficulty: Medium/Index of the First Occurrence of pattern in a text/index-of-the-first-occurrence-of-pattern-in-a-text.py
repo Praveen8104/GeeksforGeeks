@@ -4,6 +4,7 @@
 
 # } Driver Code Ends
 
+
 #User function Template for python3
 
 class Solution:
@@ -13,6 +14,8 @@ class Solution:
             if text[i:i+len(pattern)] == pattern:
                 return i
         return -1
+
+
 
 #{ 
  # Driver Code Starts.
@@ -24,4 +27,4 @@ if __name__ == '__main__':
         res = ob.findMatching(text, pattern)
         print(res)
         print("~")
-# } Driver Code End
+# } Driver Code Ends
