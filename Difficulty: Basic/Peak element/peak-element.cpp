@@ -6,6 +6,7 @@ using namespace std;
 // } Driver Code Ends
 
 
+
 class Solution {
   public:
     int peakElement(vector<int>& arr) {
@@ -26,6 +27,9 @@ class Solution {
         return left; // Peak index
     }
 };
+
+
+
 
 
 
